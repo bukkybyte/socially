@@ -6,20 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="m-4">
-      <SignedOut>
-        <SignInButton mode="modal">
-        <Button>
-          Sign In
-        </Button>
-        </SignInButton>
-        {/* <SignUpButton mode="modal" /> */}
-      </SignedOut>
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
-
-      <Button variant={"secondary"}> Click Me</Button>
-      <ModeToggle/>
+      <h1>Home Page Content</h1>
     </div>
   );
 }
